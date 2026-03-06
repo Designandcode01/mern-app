@@ -1,0 +1,37 @@
+# Dependencies
+/node_modules
+
+# Production build
+/dist
+/build
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Vite specific
+*.log
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Testing
+/coverage
+/.nyc_output
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+
+
+
+
+
